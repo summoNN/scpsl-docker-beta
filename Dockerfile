@@ -29,4 +29,4 @@ EXPOSE $PORT/udp
 
 USER scpsl
 WORKDIR /scpsl
-ENTRYPOINT ["/bin/sh", "-c", "/scpsl/LocalAdmin $PORT --help"]
+ENTRYPOINT ["/bin/sh", "-c", "/scpsl/LocalAdmin $PORT"]
