@@ -1,0 +1,8 @@
+version: "3"
+services:
+  scpsl:
+    build: .
+    ports:
+      - 7777:7777/udp
+    volumes:
+      - ./config:/config
