@@ -5,4 +5,4 @@ services:
     ports:
       - 7777:7777/udp
     volumes:
-      - ./config:/config
+      - ./config:/spcsl/config
