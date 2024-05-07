@@ -9,7 +9,6 @@ docker run -p 7777:7777/udp -v $(pwd)/config:/config ghcr.io/raftario/scpsl
 ## Docker Compose
 
 ```yml
-version: "3"
 services:
   scpsl:
     image: ghcr.io/raftario/scpsl
