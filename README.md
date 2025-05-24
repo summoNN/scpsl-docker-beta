@@ -3,7 +3,7 @@
 ## Docker CLI
 
 ```
-docker run -p 7777:7777/udp -v $(pwd)/config:/config ghcr.io/raftario/scpsl
+docker run -p 7777:7777/udp -v $(pwd)/config:/config ghcr.io/summoNN/scpsl
 ```
 
 ## Docker Compose
