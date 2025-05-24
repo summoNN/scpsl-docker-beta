@@ -3,7 +3,7 @@ FROM steamcmd/steamcmd AS steam
 WORKDIR /scpsl
 RUN steamcmd +force_install_dir /scpsl \
     +login anonymous \
-    +app_update 996560 -beta publicbeta validate \
+    +app_update 996560 -beta early-server-build validate \
     +quit
 
 FROM ubuntu:20.04
